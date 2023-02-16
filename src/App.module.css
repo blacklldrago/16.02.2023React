@@ -301,6 +301,9 @@ body{
     text-decoration: underline;
     cursor: pointer;
 }
+.menu{
+    display: none;
+}
 @media only screen and (min-width: 600px ) and (max-width: 1280px) {
     .container1{
         width: 1380px;
@@ -323,21 +326,36 @@ body{
         margin: auto;
         margin-top: 20px;
     }
-}
-@media only screen and (min-width: 360px ) and (max-width: 600px) {
-    .container1{
-        width: 1130px;
-    }
-    .navbar{
-        width: 1130px;
-        gap: 100px;
-        margin: auto;
-    }
+    
     .secta ul{
         display: flex;
         list-style: none;
         gap: 20px;
         padding-top: 33px;
+    }
+}
+@media only screen and (min-width: 360px ) and (max-width: 600px) {
+    .container1{
+        width: 1130px;
+    }
+
+    .navbar{
+        width: 1150px;
+        margin: auto;
+        justify-content: center;
+    } 
+    .secta ul{
+        display: none;
+    }
+    .cbd-logo{
+        position: relative;
+        right: 150px;
+    }
+    .menu{
+        display: block;
+        position: relative;
+        left: 200px;
+        top: 20px;
     }
     .container2, .line, .container3, .container4, .container5, .container6, .container7, .container8{
         width: 1130px;
@@ -364,18 +382,25 @@ body{
 }
 @media only screen and (min-width: 225px ) and (max-width: 359px) {
     .container1{
-        width: 1120px;
+        width: 1140px;
     }
     .navbar{
-        width:1140px;
-        gap: 100px;
+        width: 1150px;
         margin: auto;
-    }
+        justify-content: center;
+    } 
     .secta ul{
-        display: flex;
-        list-style: none;
-        gap: 20px;
-        padding-top: 33px;
+        display: none;
+    }
+    .cbd-logo{
+        position: relative;
+        right: 150px;
+    }
+    .menu{
+        display: block;
+        position: relative;
+        left: 200px;
+        top: 20px;
     }
     .container2, .line, .container3, .container4, .container5, .container6, .container7, .container8{
         width: 1120px;

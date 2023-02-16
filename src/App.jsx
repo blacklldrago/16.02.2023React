@@ -23,6 +23,7 @@ import line3 from './img/line3.png'
 import plus1 from './img/plus.png'
 import logo1 from './img/whitelogo.png'
 import email from './img/emal.png'
+import threelines from './img/threelines.png'
 import {Card, Card2, Card3, Card4} from './components/Card'
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
                   <li>Contact Us</li>
                   <li>News</li>
                 </ul>
+          </div>
+          <div className={style["menu"]}>
+            <img src={threelines} alt="" />
           </div>
         </div>
         <div className={style["doctor"]}>
