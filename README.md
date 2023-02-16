@@ -9,7 +9,15 @@
 ![alt text](./present/props.png)
 # Conditional Rendering
 # Conditional rendering in React works the same way conditions work in JavaScript
-
 # What is List and Key ?
 ## Keys help React identify which items have changed, are added, or are removed.
 ![alt text](./present/key.png)
+
+```JS
+    const numbers = [1, 2, 3, 4, 5];
+    const listItems = numbers.map((number) =>
+        <li>{number}</li>
+    );
+    <ul>{listItems}</ul>
+```
+# We don’t recommend using indexes for keys if the order of items may change. This can negatively impact performance and may cause issues with component state. 
